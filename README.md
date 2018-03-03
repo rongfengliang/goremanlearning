@@ -13,8 +13,6 @@ cd second
 go build -o server
 goreman -f procfile start
 ```
-## 
-
 ## more command
 ```bash
 goreman -f procfile run restart first

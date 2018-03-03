@@ -14,3 +14,10 @@ go build -o server
 goreman -f procfile start
 ```
 ## 
+
+## more command
+```bash
+goreman -f procfile run restart first
+goreman -f procfile run stop first
+goreman 0f procfile run status
+```

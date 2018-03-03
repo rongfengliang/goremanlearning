@@ -18,7 +18,7 @@ func demo() {
 }
 func ArticlesCategoryHandler(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "demo app")
+	fmt.Fprintf(w, "dalong demo app")
 }
 func main() {
 	var dir string
